@@ -257,7 +257,7 @@ useEffect(() => {
           <p>TEMPO POR FASE (TREINO):</p>
           <div className="grupo-botoes">
             {[15, 30, 45].map(t => (
-              <button key={t} className={`btn-tempo ${tempoConfigurado === t ? 'ativo' : ''}`} onClick={() => setTempoConfigurado(t)}>{t}s</button>
+              <button key={t} className={`btn-tempo ${tempoConfigurado === t ? 'ativo' : ''}`} onClick={() => setTempoConfigurado(t)}>{t}seg</button>
             ))}
           </div>
         </div>
